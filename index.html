@@ -10,13 +10,22 @@
 	<a href="ssea://www.sseairtricity.com/myairtricity/password?code=123">Click me</a>
 	<br/>
 	<br/>
+	<a href="https://www.sseairtricity.com/myairtricity/password?code=123">Click me Https</a>
 	<br/>
 	<br/>
 	<button onclick="loadCustomURL()">Click me IOS</button>
+	<br />
+	<br />
+	<br />
+	<button onclick="loadHttpURL()">Click me IOS Https</button>
 	<script>
 		function loadCustomURL(){
 			window.location.href= "ssea://www.sseairtricity.com/myairtricity/password?code=123";
 		}
+
+		function loadHttpURL() {
+				window.location.href = "https://www.sseairtricity.com/myairtricity/password?code=123";
+			}
 	</script>
 </body>
 </html>
