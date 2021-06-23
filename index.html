@@ -1,31 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Cookie page</title>
 </head>
+
 <body>
 	<a href="ssea://www.sseairtricity.com/myairtricity/password?code=123">Click me</a>
-	<br/>
-	<br/>
+	<br />
+	<br />
 	<a href="https://www.sseairtricity.com/myairtricity/password?code=123">Click me Https</a>
-	<br/>
-	<br/>
+	<br />
+	<br />
+
+	<a href="https://www.sseairtricity.com/cookie?code=123">Click me Android</a>
+
+	<br />
+	<br />
 	<button onclick="loadCustomURL()">Click me IOS</button>
 	<br />
 	<br />
 	<br />
 	<button onclick="loadHttpURL()">Click me IOS Https</button>
 	<script>
-		function loadCustomURL(){
-			window.location.href= "ssea://www.sseairtricity.com/myairtricity/password?code=123";
+		function loadCustomURL() {
+			window.location.href = "ssea://www.sseairtricity.com/myairtricity/password?code=123";
 		}
 
 		function loadHttpURL() {
-				window.location.href = "https://www.sseairtricity.com/myairtricity/password?code=123";
-			}
+			window.location.href = "https://www.sseairtricity.com/myairtricity/password?code=123";
+		}
 	</script>
 </body>
+
 </html>
